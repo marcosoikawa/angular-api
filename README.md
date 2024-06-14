@@ -27,6 +27,7 @@ Tags: Azure, Angular, msal-angular, API .NET 8
 ## Overview
 
 This sample demonstrates an Angular single-page application (SPA) to sign-in users and call a ASP.NET Core web API secured with [Azure Active Directory](https://aka.ms/identityplatform) (Azure AD) using the [Microsoft Authentication Library for Angular](https://github.com/AzureAD/microsoft-authentication-library-for-js/tree/dev/lib/msal-angular) (MSAL Angular) for the SPA and the [Microsoft.Identity.Web](https://github.com/AzureAD/microsoft-identity-web) (MIW) for the web API.
+
 This is forked repo from the archived and discontinued Microsoft official repo [Angular Tutorial](https://github.com/Azure-Samples/ms-identity-javascript-angular-tutorial)
 
 > :information_source: For more details, see the community call: [Implement authorization in your applications with the Microsoft identity platform](https://www.youtube.com/watch?v=LRoc-na27l0)

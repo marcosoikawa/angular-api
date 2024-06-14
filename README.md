@@ -66,10 +66,6 @@ From your shell or command line:
     git clone https://github.com/marcosoikawa/angular-api.git
 ```
 
-or download and extract the repository *.zip* file.
-
-> :warning: To avoid path length limitations on Windows, we recommend cloning into a directory near the root of your drive.
-
 ### Step 2. Install .NET Core API dependencies
 
 ```console
@@ -233,9 +229,6 @@ Then, open a separate command line and run:
 
 > :information_source: Did the sample not work for you as expected? Then please reach out to us using the [GitHub Issues](../../../issues) page.
 
-## We'd love your feedback!
-
-Were we successful in addressing your learning objective? Consider taking a moment to [share your experience with us](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR73pcsbpbxNJuZCMKN0lURpUOU5PNlM4MzRRV0lETkk2ODBPT0NBTEY5MCQlQCN0PWcu).
 
 ## Troubleshooting
 

@@ -63,7 +63,7 @@ This is forked repo from the archived and discontinued Microsoft official repo [
 From your shell or command line:
 
 ```console
-    git clone https://github.com/Azure-Samples/ms-identity-javascript-angular-tutorial.git
+    git clone https://github.com/marcosoikawa/angular-api.git
 ```
 
 or download and extract the repository *.zip* file.
@@ -73,8 +73,8 @@ or download and extract the repository *.zip* file.
 ### Step 2. Install .NET Core API dependencies
 
 ```console
-    cd ms-identity-javascript-angular-tutorial
-    cd 3-Authorization-II/1-call-api/API/TodoListAPI
+    cd angular-api
+    cd API/TodoListAPI
     dotnet restore
 ```
 
@@ -99,34 +99,7 @@ For more information and potential issues, see: [HTTPS in .NET Core](https://doc
 
 There are two projects in this sample. Each needs to be separately registered in your Azure AD tenant. To register these projects, you can:
 
-- follow the steps below for manually register your apps
-- or use PowerShell scripts that:
-  - **automatically** creates the Azure AD applications and related objects (passwords, permissions, dependencies) for you.
-  - modify the projects' configuration files.
-
-  <details>
-   <summary>Expand this section if you want to use this automation:</summary>
-
-    > :warning: If you have never used **Microsoft Graph PowerShell** before, we recommend you go through the [App Creation Scripts Guide](./AppCreationScripts/AppCreationScripts.md) once to ensure that your environment is prepared correctly for this step.
-  
-    1. On Windows, run PowerShell as **Administrator** and navigate to the root of the cloned directory
-    1. In PowerShell run:
-
-       ```PowerShell
-       Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process -Force
-       ```
-
-    1. Run the script to create your Azure AD application and configure the code of the sample application accordingly.
-    1. For interactive process -in PowerShell, run:
-
-       ```PowerShell
-       cd .\AppCreationScripts\
-       .\Configure.ps1 -TenantId "[Optional] - your tenant id" -AzureEnvironmentName "[Optional] - Azure environment, defaults to 'Global'"
-       ```
-
-    > Other ways of running the scripts are described in [App Creation Scripts guide](./AppCreationScripts/AppCreationScripts.md). The scripts also provide a guide to automated application registration, configuration and removal which can help in your CI/CD scenarios.
-
-  </details>
+Follow the steps below for manually register your apps
 
 #### Choose the Azure AD tenant where you want to create your applications
 

@@ -1,15 +1,8 @@
-
 ---
 ArtifactType: website
 Language: typescript
 Platform: web browser
 Tags: Azure, Angular, msal-angular
----
----
-ArtifactType: API
-Language: C#
-Platform: Windows
-Tags: Azure, .NET 8, Entra ID
 ---
 
 # Angular single-page application using MSAL Angular to sign-in users with Azure Active Directory and call a .NET Core web API

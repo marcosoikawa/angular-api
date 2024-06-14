@@ -1,8 +1,8 @@
 ---
-ArtifactType: website
-Language: typescript
-Platform: web browser
-Tags: Azure, Angular, msal-angular
+ArtifactType: website, API
+Language: typescript, C#
+Platform: web browser, Windows
+Tags: Azure, Angular, msal-angular, API .NET 8
 ---
 
 # Angular single-page application using MSAL Angular to sign-in users with Azure Active Directory and call a .NET Core web API

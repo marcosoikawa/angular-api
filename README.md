@@ -17,6 +17,12 @@ description: This sample demonstrates an Angular single-page application (SPA) t
 ---
 
 # Angular single-page application using MSAL Angular to sign-in users with Azure Active Directory and call a .NET Core web API
+![GitHub](https://img.shields.io/github/license/marcosoikawa/angular-api) 
+![GitHub repo size](https://img.shields.io/github/repo-size/marcosoikawa/angular-api) 
+[![Azure](https://badgen.net/badge/icon/azure?icon=azure&label)](https://azure.microsoft.com)
+
+![GitHub last commit](https://img.shields.io/github/last-commit/marcosoikawa/angular-api)
+![GitHub top language](https://img.shields.io/github/languages/top/marcosoikawa/angular-api)
 
 * [Overview](#overview)
 * [Scenario](#scenario)

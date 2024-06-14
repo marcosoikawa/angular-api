@@ -5,7 +5,7 @@ Platform: web browser, Windows
 Tags: Azure, Angular, msal-angular, API .NET 8
 ---
 
-# Angular single-page application using MSAL Angular to sign-in users with Azure Active Directory and call a .NET Core web API
+# Angular single-page application using MSAL Angular to sign-in users with Azure Active Directory and call a .NET 8 web API
 ![GitHub](https://img.shields.io/github/license/marcosoikawa/angular-api) 
 ![GitHub repo size](https://img.shields.io/github/repo-size/marcosoikawa/angular-api)
 [![Azure](https://badgen.net/badge/icon/azure?icon=azure&label)](https://azure.microsoft.com)

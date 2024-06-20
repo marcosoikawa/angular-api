@@ -237,6 +237,7 @@ Variable block
 ```bash
 let "randomIdentifier=$RANDOM"
 resourceGroup="angular-apim-net8"
+storage=angapimnet8$randomIdentifier
 appServicePlan="angular-apim-net8-$randomIdentifier"
 webapp="angular-apim-net8-$randomIdentifier"
 apim="angular-net8-$randomIdentifier"
@@ -247,6 +248,14 @@ Create Resource Group
 az group create \
     --name $resourceGroup \
     --location brazilsouth
+```
+
+Create Storage Account
+```bash
+az storage account create \
+    -n $storage \
+    -g $resourceGroup
+    -l brazilsouth
 ```
 
 Create App Service Plan
@@ -265,6 +274,15 @@ az apim create --name $apim --resource-group $resourceGroup \
   --publisher-name Contoso --publisher-email admin@contoso.com \
   --no-wait
 ```
+
+Generate package of SPA.
+In VS Code, open terminal
+
+```bash
+cd /SPA
+ng build
+```
+Then, right click on recently created dist folder and click on "Deploy to Static Web Site via Azure Storage"
 
 ## Troubleshooting
 

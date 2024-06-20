@@ -229,6 +229,33 @@ Then, open a separate command line and run:
 
 > :information_source: Did the sample not work for you as expected? Then please reach out to us using the [GitHub Issues](../../../issues) page.
 
+## Create Azure Environmnet
+
+```bash
+```
+Variable block
+```bash
+resourceGroup="angular-apim-net8"
+appServicePlan="angular-apim-net8-$randomIdentifier"
+webapp="angular-apim-net8-$randomIdentifier"
+```
+
+Create Resource Group
+```bash
+az group create \
+    --name $resourceGroup \
+    --location brazilsouth
+```
+
+Create App Service Plan
+```bash
+az appservice plan create --name $appServicePlan --resource-group angular-apim-net8 --sku FREE
+```
+
+Ceate a web app
+```bash
+az webapp create --name $webapp --resource-group $resourceGroup --plan $appServicePlan
+```
 
 ## Troubleshooting
 

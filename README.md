@@ -239,6 +239,7 @@ let "randomIdentifier=$RANDOM"
 resourceGroup="angular-apim-net8"
 appServicePlan="angular-apim-net8-$randomIdentifier"
 webapp="angular-apim-net8-$randomIdentifier"
+apim="angular-net8-$randomIdentifier"
 ```
 
 Create Resource Group
@@ -256,6 +257,13 @@ az appservice plan create --name $appServicePlan --resource-group angular-apim-n
 Ceate a web app
 ```bash
 az webapp create --name $webapp --resource-group $resourceGroup --plan $appServicePlan
+```
+
+Ceate an API Management
+```bash
+az apim create --name $apim --resource-group $resourceGroup \
+  --publisher-name Contoso --publisher-email admin@contoso.com \
+  --no-wait
 ```
 
 ## Troubleshooting

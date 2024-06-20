@@ -235,6 +235,7 @@ Then, open a separate command line and run:
 ```
 Variable block
 ```bash
+let "randomIdentifier=$RANDOM"
 resourceGroup="angular-apim-net8"
 appServicePlan="angular-apim-net8-$randomIdentifier"
 webapp="angular-apim-net8-$randomIdentifier"

@@ -274,7 +274,7 @@ az apim create --name $apim --resource-group $resourceGroup \
   --publisher-name Contoso --publisher-email admin@contoso.com \
   --no-wait
 ```
-
+## Deploy to Azure Environmnet
 Generate package of SPA.
 In VS Code, open terminal
 
@@ -282,7 +282,12 @@ In VS Code, open terminal
 cd /SPA
 ng build
 ```
-Then, right click on recently created dist folder and click on "Deploy to Static Web Site via Azure Storage"
+Then, 
+1. Right click on recently created dist/SPA folder and click on "Deploy to Static Web Site via Azure Storage"
+2. Select subscription
+3. Select the storage account recently created (angapimnet8[random])
+    3.1. If is the first time, a pop-up will ask if you want to activate static website. Click on Yes.
+4. Open Azure Portal, search the recently created Storage Account, and the section DataManagement, click on Static website. Copy the primary endpoint and paste in a browser to validate if your site is active.
 
 ## Troubleshooting
 

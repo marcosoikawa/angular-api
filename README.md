@@ -301,6 +301,15 @@ Then,
 1. Open Azure Portal / Entra ID / App Registrations, select the Client Application created
 2. In Managed section, Authentication, in Single-page application, add the url of storage website deployed. Add 2 urls (https://[createdwebsitename].z15.web.core.windows.net, https://[createdwebsitename].z15.web.core.windows.net/auth).
 
+
+### Integrate API hosted in App Services to API Management
+
+1. In Azure Portal, open the Web App recently created
+2. In API Section, API definition, set the location of swagger endpoint "swagger/v1/swagger.json" and save.
+![Environment](./ReadmeFiles/integrateapi01.png)
+3. In API Section, API Management, select your recently created API Management, in API leave "-- Create New --", certify that "Use OpenAI Specification" checkbox checked and clik "Link API".
+![Environment](./ReadmeFiles/integrateapi02.png)
+
 ## Troubleshooting
 
 Use [Stack Overflow](http://stackoverflow.com/questions/tagged/msal) to get support from the community. Ask your questions on Stack Overflow first and browse existing issues to see if someone has asked your question before. Make sure that your questions or comments are tagged with [`azure-active-directory` `angular` `ms-identity` `adal` `msal`].

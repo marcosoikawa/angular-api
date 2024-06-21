@@ -47,7 +47,7 @@ export const msalConfig: Configuration = {
  */
 export const protectedResources = {
     apiTodoList: {
-        endpoint: "https://hirotodolistapi.azurewebsites.net/api/todolist",
+        endpoint: "https://angular-net8-1507.azure-api.net/api/todolist",
         scopes: {
             read: ["api://89bb7f9d-b1f5-445d-a5ea-252196f4e7ab/TodoList.Read"],
             write: ["api://89bb7f9d-b1f5-445d-a5ea-252196f4e7ab/TodoList.ReadWrite"]

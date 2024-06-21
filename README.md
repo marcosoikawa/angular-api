@@ -311,8 +311,10 @@ Then,
 4. In Azure Portal, search and open the API Management recently created
 5. In API Section, click on API. In "Create from Azure resource" section, click on "App Service" Option
 ![Environment](./ReadmeFiles/integrateapi01.png)
-6. Browse and select your webapp. It should configure automaticatilly due the OpenAPI configuration in the preview steps. Click create. A ToDo API should be created in the API Management
+6. Browse and select your webapp. It should configure automaticatilly due the OpenAPI configuration in the preview steps. Click create. A "ToDo API" should be created in the API Management
 ![Environment](./ReadmeFiles/integrateapi03.png)
+7. Click on "ToDo API", click on "Settings" tab, on Subscription section, disable the "Subscription required" checkbox.
+![Environment](./ReadmeFiles/integrateapi04.png)
 
 ## Troubleshooting
 

@@ -304,11 +304,15 @@ Then,
 
 ### Integrate API hosted in App Services to API Management
 
-1. In Azure Portal, open the Web App recently created
-2. In API Section, API definition, set the location of swagger endpoint "swagger/v1/swagger.json" and save.
+1. In Azure Portal, open Web App recently created
+2. In API section, click on API definition
+3. In API definition location, set with the url of OpenAPI definition (https://[yourwebsite].azurewebsites.net/swagger/v1/swagger.json)
+![Environment](./ReadmeFiles/integrateapi00.png)
+4. In Azure Portal, search and open the API Management recently created
+5. In API Section, click on API. In "Create from Azure resource" section, click on "App Service" Option
 ![Environment](./ReadmeFiles/integrateapi01.png)
-3. In API Section, API Management, select your recently created API Management, in API leave "-- Create New --", certify that "Use OpenAI Specification" checkbox checked and clik "Link API".
-![Environment](./ReadmeFiles/integrateapi02.png)
+6. Browse and select your webapp. It should configure automaticatilly due the OpenAPI configuration in the preview steps. Click create. A ToDo API should be created in the API Management
+![Environment](./ReadmeFiles/integrateapi03.png)
 
 ## Troubleshooting
 

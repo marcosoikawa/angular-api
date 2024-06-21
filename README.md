@@ -313,7 +313,7 @@ Then,
 ![Environment](./ReadmeFiles/integrateapi01.png)
 6. Browse and select your webapp. It should configure automaticatilly due the OpenAPI configuration in the preview steps. Click create. A "ToDo API" should be created in the API Management
 ![Environment](./ReadmeFiles/integrateapi03.png)
-7. Click on "ToDo API", click on "Settings" tab, on Subscription section, disable the "Subscription required" checkbox.
+7. Click on "ToDo API", click on "Settings" tab, on Subscription section, disable the "Subscription required" checkbox and click Save
 ![Environment](./ReadmeFiles/integrateapi04.png)
 
 ## Troubleshooting

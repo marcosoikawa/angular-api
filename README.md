@@ -320,7 +320,7 @@ Then,
 1. Open API Management / API Section - API
 1. In All APIs, click on Design tab
 1. In Inbound processing section, click on Add Policy. Select the "Allow cross-origin resource shareing (CORS)"
-    1. In Allowed Oringins, add http://localhost:4200 and https://[yourstoragewebsite].z15.web.core.windows.net
+    1. In Allowed Oringins, add http://localhost:4200 and [https://[yourstoragewebsite].z15.web.core.windows.net](https://[yourstoragewebsite].z15.web.core.windows.net)
     1. In Allowed methods, check GET, POST, PUT, DELETE, HEAD, OPTIONS and TRACE
     1. In Allowed headers, add "authorization" and "content-type"
     1. Click Save

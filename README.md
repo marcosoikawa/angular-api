@@ -275,6 +275,8 @@ az apim create --name $apim --resource-group $resourceGroup \
   --no-wait
 ```
 ## Deploy to Azure Environmnet
+
+### SPA Application
 Generate package of SPA.
 In VS Code, open terminal
 
@@ -288,6 +290,12 @@ Then,
 3. Select the storage account recently created (angapimnet8[random])
     3.1. If is the first time, a pop-up will ask if you want to activate static website. Click on Yes.
 4. Open Azure Portal, search the recently created Storage Account, and the section DataManagement, click on Static website. Copy the primary endpoint and paste in a browser to validate if your site is active.
+
+### API
+1. Open angular-api/API/TodoListAPI.sln in Visual Studio
+2. Righ click on TodoListAPI project, Publish. 
+3. Click on Target: Azure, Next / Azure App Services (Windows), Next / Select subscription that App Services was created and select angular-apim-net8-xx webapp previously created / click Finish / 
+4. Click Publish
 
 ## Troubleshooting
 

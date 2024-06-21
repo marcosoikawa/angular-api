@@ -316,6 +316,15 @@ Then,
 7. Click on "ToDo API", click on "Settings" tab, on Subscription section, disable the "Subscription required" checkbox and click Save
 ![Environment](./ReadmeFiles/integrateapi04.png)
 
+### Adding CORS Policy in API Management
+1. Open API Management / API Section - API
+2. In All APIs, click on Design tab
+3. In Inbound processing section, click on Add Policy. Select the "Allow cross-origin resource shareing (CORS)"
+    3.1. In Allowed Oringins, add http://localhost:4200 and https://[yourstoragewebsite].z15.web.core.windows.net
+    3.2. In Allowed methods, check GET, POST, PUT, DELETE, HEAD, OPTIONS and TRACE
+    3.3. In Allowed headers, add "authorization" and "content-type"
+    3.4. Click Save
+
 ## Troubleshooting
 
 Use [Stack Overflow](http://stackoverflow.com/questions/tagged/msal) to get support from the community. Ask your questions on Stack Overflow first and browse existing issues to see if someone has asked your question before. Make sure that your questions or comments are tagged with [`azure-active-directory` `angular` `ms-identity` `adal` `msal`].

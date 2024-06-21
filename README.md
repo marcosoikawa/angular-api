@@ -297,6 +297,10 @@ Then,
 3. Click on Target: Azure, Next / Azure App Services (Windows), Next / Select subscription that App Services was created and select angular-apim-net8-xx webapp previously created / click Finish / 
 4. Click Publish
 
+### Configure Entra ID
+1. Open Azure Portal / Entra ID / App Registrations, select the Client Application created
+2. In Managed section, Authentication, in Single-page application, add the url of storage website deployed. Add 2 urls (https://[createdwebsitename].z15.web.core.windows.net, https://[createdwebsitename].z15.web.core.windows.net/auth).
+
 ## Troubleshooting
 
 Use [Stack Overflow](http://stackoverflow.com/questions/tagged/msal) to get support from the community. Ask your questions on Stack Overflow first and browse existing issues to see if someone has asked your question before. Make sure that your questions or comments are tagged with [`azure-active-directory` `angular` `ms-identity` `adal` `msal`].

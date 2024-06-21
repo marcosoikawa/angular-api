@@ -324,7 +324,7 @@ Then,
     3.2. In Allowed methods, check GET, POST, PUT, DELETE, HEAD, OPTIONS and TRACE
     3.3. In Allowed headers, add "authorization" and "content-type"
     3.4. Click Save
-
+![Environment](./ReadmeFiles/cors01.png)
 ## Troubleshooting
 
 Use [Stack Overflow](http://stackoverflow.com/questions/tagged/msal) to get support from the community. Ask your questions on Stack Overflow first and browse existing issues to see if someone has asked your question before. Make sure that your questions or comments are tagged with [`azure-active-directory` `angular` `ms-identity` `adal` `msal`].

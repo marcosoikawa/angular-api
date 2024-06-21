@@ -286,10 +286,10 @@ ng build
 ```
 Then, 
 1. Right click on recently created dist/SPA folder and click on "Deploy to Static Web Site via Azure Storage"
-2. Select subscription
-3. Select the storage account recently created (angapimnet8[random])
-    * 3.1. If is the first time, a pop-up will ask if you want to activate static website. Click on Yes.
-4. Open Azure Portal, search the recently created Storage Account, and the section DataManagement, click on Static website. Copy the primary endpoint and paste in a browser to validate if your site is active.
+1. Select subscription
+1. Select the storage account recently created (angapimnet8[random])
+    1. 3.1. If is the first time, a pop-up will ask if you want to activate static website. Click on Yes.
+1. Open Azure Portal, search the recently created Storage Account, and the section DataManagement, click on Static website. Copy the primary endpoint and paste in a browser to validate if your site is active.
 
 ### API
 1. Open angular-api/API/TodoListAPI.sln in Visual Studio
@@ -318,12 +318,12 @@ Then,
 
 ### Adding CORS Policy in API Management
 1. Open API Management / API Section - API
-2. In All APIs, click on Design tab
-3. In Inbound processing section, click on Add Policy. Select the "Allow cross-origin resource shareing (CORS)"
-    * 3.1. In Allowed Oringins, add http://localhost:4200 and https://[yourstoragewebsite].z15.web.core.windows.net
-    * 3.2. In Allowed methods, check GET, POST, PUT, DELETE, HEAD, OPTIONS and TRACE
-    * 3.3. In Allowed headers, add "authorization" and "content-type"
-    * 3.4. Click Save
+1. In All APIs, click on Design tab
+1. In Inbound processing section, click on Add Policy. Select the "Allow cross-origin resource shareing (CORS)"
+    1. 3.1. In Allowed Oringins, add http://localhost:4200 and https://[yourstoragewebsite].z15.web.core.windows.net
+    1. 3.2. In Allowed methods, check GET, POST, PUT, DELETE, HEAD, OPTIONS and TRACE
+    1. 3.3. In Allowed headers, add "authorization" and "content-type"
+    1. 3.4. Click Save
 ![Environment](./ReadmeFiles/cors01.png)
 ## Troubleshooting
 
